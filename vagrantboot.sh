@@ -4,3 +4,6 @@ apt-get update
 
 # install python
 apt-get install python-dev python-pip -q -y
+
+export GALLERY_PATH=/assets/subjects
+
