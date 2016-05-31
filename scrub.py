@@ -1,8 +1,8 @@
 import sys
 
-def output_to_stdout(msg):
-  print msg
+target = ''
 
 if len(sys.argv) > 1:
   target = sys.argv[1]
-else:
+
+
