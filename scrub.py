@@ -10,7 +10,7 @@ if len(sys.argv) > 1:
   print(gallery_path)
   finder = FileFinder(gallery_path)
   files = finder.get_files('*.jpg')
-  print('found {} file(s).'.format(len.files))
+  print('found {} file(s).'.format(len(files)))
 else:
   "loop through all galleries"
   pass
