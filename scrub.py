@@ -1,7 +1,7 @@
 import os
 import sys
 
-from 'glib/file_finder' import FileFinder
+from file_finder import FileFinder
 
 gallery_root = os.environ['GALLERY_ROOT']
 
